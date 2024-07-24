@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-boot-04-jdbc_template
+  datasource:
+    url: jdbc:postgresql://localhost:5433/user
+    username: user2
+    password: 854403lkj
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
